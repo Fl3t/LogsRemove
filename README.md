@@ -1,0 +1,2 @@
+# LogsRemove
+Clear Logs Linux
