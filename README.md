@@ -1,3 +1,2 @@
 # LogsRemove
-Clear Logs Linux
-Exec in Root!
+Clear Logs Linux (Exec in Root!)
