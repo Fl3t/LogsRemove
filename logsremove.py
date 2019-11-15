@@ -1,4 +1,3 @@
-#!/usr/bin/python3
 import os
 
 logs = ['/var/log/lastlog', 
@@ -81,5 +80,7 @@ for log in logs:
         print('Log Limpo ==>', log)
     except:
         print('Sem Logs ==>', log)
-
-#Flet~~
+try:
+    os.system('find /var/log -name "*.gz" -exec rm -f {} \;')
+except:
+    pass    
